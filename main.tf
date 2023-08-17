@@ -1,8 +1,3 @@
-import {
-  to = aws_default_vpc.default
-  id = "vpc-41079224"
-}
-
 data "aws_ami" "app_ami" {
   most_recent = true
 
