@@ -47,7 +47,7 @@ module "blog_sg" {
 
 resource "aws_security_group" "name" {
   name    = "blog"
-  dedescription = "allow http"
+  description = "allow http"
 
   vpc_id = data.aws_vpc.default.id
 }
